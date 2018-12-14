@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Select Image</title>
+  <script type="text/javascript">
+  function displayImage() {
+    var image = document.getElementById("imageList").value;
+    document.getElementsByTagName("img")[0].setAttribute("src",image)
+  }
+  </script>
+</head>
+<body>
+  <form name="controls">
+   
+    <select id="imageList" onChange="displayImage(this);">
+      <option value="images/fire1.jpg">Fire 1</option>
+      <option value="images/fire2.jpg">Fire 2</option>
+
+</select>
+  </form>
+  
+   <img src="images/fire1.jpg" />
+  
+</body>
+</html>
