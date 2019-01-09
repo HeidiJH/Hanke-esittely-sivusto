@@ -1,0 +1,500 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Rahoitetut hankkeet</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px; 
+}
+/* unvisited link */
+a:link {
+  color:#00a4ad;
+}
+
+/* visited link */
+a:visited {
+  color: #74c25f;
+}
+
+/* mouse over link */
+a:hover {
+  color:  #07c0f9;
+}
+
+/* selected link */
+a:active {
+  color: #b7d302;
+}
+
+#center {
+	width: 832px;
+	margin: auto;
+	margin-top: 36px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.header {
+    float: left;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-bottom: 16px;
+}
+.map {
+    float: left;
+    width: 50%;
+    margin-bottom: 24px;
+}
+#companyList{
+    width: 400px;
+}
+.data {
+    float: left;
+    width: 50%;
+    margin-bottom: 24px;
+}
+.infog1 {
+    float: left;
+    width: 50%;
+    margin-top:24px;
+    margin-bottom: 16px;
+}
+.infog2 {
+    float: left;
+    width: 50%;
+    margin-top:16px;
+    margin-bottom: 16px;
+}
+#icon_left {
+    margin-right: 0px;
+    margin-bottom: 4px;
+}
+#icon_middle {
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 4px;
+}
+#icon_right {
+    margin-right: 0px;
+    margin-bottom: 4px;
+}
+.icons {
+    border: 0px solid #74c25f;
+    margin-top: 16px;
+}
+#spacer {
+    background-color: #e9ecf1;
+}
+.video {
+    margin-top: 16px;
+}
+.dropdown {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #74c25f;
+    padding: 8px;
+    margin-bottom: 14px;
+}
+object {
+    border-radius: 4px;
+    border: 1px solid #74c25f;
+    padding: 4px;
+    margin-top: 14px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 14px; 
+}
+
+@media only screen and (max-width:880px) {
+    /* For mobile phones: */
+    .header, .map, .data, .infog1, .infog2 {
+    width:100%;
+  }
+}
+</style>
+         
+
+
+</head>
+
+<body>
+
+  <div id="center">
+
+
+
+    <!-- Map-->
+	<div class="map">
+            <div class="header">
+                    Ravinteiden kierrätyksen kokeiluohjelmasta <br>
+                        rahoitusta saaneita yrityksiä ja hankkeita
+            </div>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1he6h4CluJIf2xh0rBj2QqTVj0XMielI7" width="380" height="480"></iframe>
+            <table class="icons" width="381">
+                    <tr>
+                        <td width="127" align="center"><img id="icon_left" src="images/icon_teknologia.png" width="44" height="44" alt="Teknologia" /></td>
+                        <td width="127" align="center"><img id="icon_middle" src="images/icon_tuotteet.png" width="44" height="44" alt="Tuotteet" /></td>
+                        <td width="127" align="center"><img id="icon_right" src="images/icon_yhteistyo.png" width="44" height="44" alt="Yhteistyö" /></td>
+                    </tr>
+                    <tr>
+                        <td width="127" align="center">Teknologia</td>
+                        <td width="127" align="center">Menetelmät</td>
+                        <td width="127" align="center">Yhteistyö</td>
+                    </tr>        
+            </table>
+    </div>
+    
+    <!--Dropdown-menu-->
+    <div>
+      <select id="companyList"  class="dropdown">
+        <option value = "option1" selected="selected">Valitse yritys</option>
+        <option value = "option2">BioKymppi Oy</option>
+        <option value = "option3">Biometa Finland Oy</option>
+        <option value = "option4">Biolan Oy</option>
+        <option value = "option5">Ecolan Oy</option>
+        <option value = "option6">Envitop Oy</option>
+        <option value = "option7">Heikas Oy</option>
+        <option value = "option8">Helsieni Oy</option>
+        <option value = "option9">Nanopar Oy</option>
+        <option value = "option10">Pasrea Oy</option>
+        <option value = "option11">Punkalaitumen Bioenergiayhtiö Oy</option>
+			</select>   
+    </div> 
+    <!--Content-->
+    <!--Option1-->            
+    <div id="option1" class="company_data">
+        <div class="icons">
+        
+        </div>
+    </div>
+    <!--Option2--> 
+    <div id="option2" class="company_data">
+        <div>
+            <table width="400">
+                <tr>
+                    <td><img id="icon_left" src="images/icon_teknologia.png" width="44" height="44" alt="Teknologia" /></td>
+                    <td align="right"> Osoite: Puhoksentie 15, 82500 Kitee<br>
+                        Puh. +358 40 5486701<br>
+                        <a href="https://www.bio10.fi" target="_blank">www.bio10.fi</a>
+                    </td>
+                </tr>        
+            </table>        
+        </div>
+        <div class="data">
+            <object data="hankekuvaukset/BioKymppi.txt" type="text/plain" width="384" height=411>
+                <a href="hankekuvaukset/BioKymppi.txt">No Support?</a>
+            </object>
+            <table class="video" width="392">
+                    <tr>
+                        <td>Rahoitus:<br><br>Kokonaisbudjetti: 998 076 €,<br>josta tukea on myönnetty 60 %</td>
+                        <td id="spacer" width="1"></td>
+                        <td align="center"><a href="https://www.youtube.com/watch?v=3NBXmdLGo28" target="_blank">
+                            <img src="images/icon_youtube_48px.png" alt="YouTube Logo"></a><br>
+                            <a href="https://www.youtube.com/watch?v=3NBXmdLGo28" target="_blank">Katso video</a></td>
+                    </tr>    
+                </table> 
+        </div>
+        <div class="infog1">
+                <img id="kuva1" src="images/Palkit_otos.svg" width="380"/>
+        </div>
+    </div>
+    <!--Option3--> 
+    <div id="option3" class="company_data">
+            <div>
+                <table width="400">
+                    <tr>
+                        <td><img id="icon_left" src="images/icon_teknologia.png" width="44" height="44" alt="Teknologia" /></td>
+                        <td align="right">Osoite: Tuoreenmaanarontie 1, 90630 Oulu<br>
+                            Puh. +358 40 0470684<br>
+                            <a href="https://www.biometa.fi" target="_blank">www.biometa.fi</a>
+                        </td>
+                    </tr>        
+                </table>        
+            </div>
+            <div class="data">
+                <object data="hankekuvaukset/Biometa.txt" type="text/plain" width="384" height=411>
+                    <a href="hankekuvaukset/Biometa.txt">No Support?</a>
+                </object>
+                <table class="video" width="392">
+                        <tr>
+                            <td>Rahoitus:<br><br>Kokonaisbudjetti: 494 800 €,<br>josta tukea on myönnetty 50 %</td>
+                        </tr>    
+                    </table> 
+            </div>
+            <div class="infog1">
+                    <img id="kuva1" src="images/Palkit_otos.svg" width="380"/>
+            </div>
+        </div>
+    <!--Option4--> 
+    <div id="option4" class="company_data">
+            <div>
+                <table width="400">
+                    <tr>
+                        <td><img id="icon_left" src="images/icon_tuotteet.png" width="44" height="44" alt="Tuotteet" /></td>
+                        <td align="right"> Osoite: Lauttakyläntie 570, 27510 Eura<br>
+                            Puh. +358 2 5491600<br>
+                            <a href="https://www.biolan.fi" target="_blank">www.biolan.fi</a>
+                        </td>
+                    </tr>        
+                </table>        
+            </div>
+            <div class="data">
+                <object data="hankekuvaukset/Biolan.txt" type="text/plain" width="384" height=411>
+                    <a href="hankekuvaukset/Biolan.txt">No Support?</a>
+                </object>
+                <table class="video" width="392">
+                        <tr>
+                            <td>Rahoitus:<br><br>Kokonaisbudjetti: 1 284 718 €,<br>josta tukea on myönnetty 50 %</td>
+                            <td id="spacer" width="1"></td>
+                            <td align="center"><a href="https://www.youtube.com/watch?v=NtMcDByXpWY" target="_blank">
+                                <img src="images/icon_youtube_48px.png" alt="YouTube Logo"></a><br>
+                                <a href="https://www.youtube.com/watch?v=NtMcDByXpWY" target="_blank">Katso video</a></td>
+                        </tr>    
+                    </table> 
+            </div>
+            <div class="infog1">
+                    <img id="kuva1" src="images/Palkit_otos.svg" width="380"/>
+            </div>
+        </div>
+    <!--Option5--> 
+    <div id="option5" class="company_data">
+            <div>
+                <table width="400">
+                    <tr>
+                        <td><img id="icon_left" src="images/icon_teknologia.png" width="44" height="44" alt="Teknologia" /></td>
+                        <td align="right"> Osoite: Kölkynvuorentie 8, 44500 Viitasaari<br>
+                            <a href="https://ecolan.fi" target="_blank">ecolan.fi</a><br><br>
+                        </td>
+                    </tr>        
+                </table>        
+            </div>
+            <div class="data">
+                <object data="hankekuvaukset/Ecolan.txt" type="text/plain" width="384" height=411>
+                    <a href="hankekuvaukset/Ecolan.txt">No Support?</a>
+                </object>
+                <table class="video" width="392">
+                        <tr>
+                            <td>Rahoitus:<br><br>Kokonaisbudjetti: 264 600 €,<br>josta tukea on myönnetty 70 %</td>
+                        </tr>    
+                    </table> 
+            </div>
+            <div class="infog1">
+                    <img id="kuva1" src="images/Palkit_otos.svg" width="380"/>
+            </div>
+        </div>
+    <!--Option6--> 
+    <div id="option6" class="company_data">
+            <div>
+                <table width="400">
+                    <tr>
+                        <td><img id="icon_left" src="images/icon_tuotteet.png" width="44" height="44" alt="Tuotteet" /></td>
+                        <td align="right"> Osoite: Riihitie 5, 90240 Oulu<br>
+                            Puh. +358 8 375046<br>
+                            <a href="https://www.envitop.com" target="_blank">www.envitop.com</a>
+                        </td>
+                    </tr>        
+                </table>        
+            </div>
+            <div class="data">
+                <object data="hankekuvaukset/Envitop.txt" type="text/plain" width="384" height=411>
+                    <a href="hankekuvaukset/Envitop.txt">No Support?</a>
+                </object>
+                <table class="video" width="392">
+                        <tr>
+                            <td>Rahoitus:<br><br>Kokonaisbudjetti: 320 000 €,<br>josta tukea on myönnetty 45 %</td>
+                          
+                        </tr>    
+                    </table> 
+            </div>
+            <div class="infog1">
+                    <img id="kuva1" src="images/Palkit_otos.svg" width="380"/>
+            </div>
+        </div>
+    <!--Option7--> 
+    <div id="option7" class="company_data">
+            <div>
+                <table width="400">
+                    <tr>
+                        <td><img id="icon_left" src="images/icon_yhteistyo.png" width="44" height="44" alt="Yhteistyö" /></td>
+                        <td align="right"> Osoite: Hahtomaantie 629, 62200 Kauhava<br><br>
+                        </td>
+                    </tr>        
+                </table>        
+            </div>
+            <div class="data">
+                <object data="hankekuvaukset/Heikas.txt" type="text/plain" width="384" height=411>
+                    <a href="hankekuvaukset/Heikas.txt">No Support?</a>
+                </object>
+                <table class="video" width="392">
+                        <tr>
+                            <td>Rahoitus:<br><br>Kokonaisbudjetti: 181 562 €,<br>josta tukea on myönnetty 70 %</td>
+                            <br>
+                        </tr>    
+                    </table> 
+            </div>
+            <div class="infog1">
+                    <img id="kuva1" src="images/Palkit_otos.svg" width="380"/>
+            </div>
+        </div>
+    <!--Option8--> 
+    <div id="option8" class="company_data">
+            <div>
+                <table width="400">
+                    <tr>
+                        <td><img id="icon_left" src="images/icon_tuotteet.png" width="44" height="44" alt="Tuotteet" /></td>
+                        <td align="right"> Osoite: Henry Fordin katu 5 F, 00150 Helsinki<br>
+                            Puh. +358 40 4712738<br>
+                            <a href="https://www.helsieni.fi" target="_blank">www.helsieni.fi</a>
+                        </td>
+                    </tr>        
+                </table>        
+            </div>
+            <div class="data">
+                <object data="hankekuvaukset/Helsieni.txt" type="text/plain" width="384" height=411>
+                    <a href="hankekuvaukset/Helsieni.txt">No Support?</a>
+                </object>
+                <table class="video" width="392">
+                        <tr>
+                            <td>Rahoitus:<br><br>Kokonaisbudjetti: 60 000 €,<br>josta tukea on myönnetty 70 %
+                            <br>
+                            </td>
+                            
+                        </tr>    
+                    </table> 
+            </div>
+            <div class="infog1">
+                    <img id="kuva1" src="images/Palkit_otos.svg" width="380"/>
+            </div>
+        </div>
+    <!--Option9--> 
+    <div id="option9" class="company_data">
+            <div>
+                <table width="400">
+                    <tr>
+                        <td><img id="icon_left" src="images/icon_teknologia.png" width="44" height="44" alt="Teknologia" /></td>
+                        <td align="right"> Osoite: Kotiniementie 16, 52200 Puumala<br>
+                            Puh. +358 40 5225635<br>
+                            <a href="https://www.nanopar.fi" target="_blank">www.nanopar.fi</a>
+                        </td>
+                    </tr>        
+                </table>        
+            </div>
+            <div class="data">
+                <object data="hankekuvaukset/Nanonpar.txt" type="text/plain" width="384" height=411>
+                    <a href="hankekuvaukset/Nanonpar.txt">No Support?</a>
+                </object>
+                <table class="video" width="392">
+                        <tr>
+                            <td>Rahoitus:<br><br>Kokonaisbudjetti: 567 000 €,<br>josta tukea on myönnetty 45 %
+                            <br>
+                            </td>
+                            
+                        </tr>    
+                    </table> 
+            </div>
+            <div class="infog1">
+                    <img id="kuva1" src="images/Palkit_otos.svg" width="380"/>
+            </div>
+        </div>
+    <!--Option10--> 
+    <div id="option10" class="company_data">
+            <div>
+                <table width="400">
+                    <tr>
+                        <td><img id="icon_left" src="images/icon_teknologia.png" width="44" height="44" alt="Teknologia" /></td>
+                        <td align="right"> Osoite: Piesalantilantie 2, 41900 Petäjävesi<br>
+                            Puh. +358 40 7039301<br>
+                            <a href="https://www.pasrea.bio" target="_blank">www.pasrea.bio</a>
+                        </td>
+                    </tr>        
+                </table>        
+            </div>
+            <div class="data">
+                <object data="hankekuvaukset/Pasrea.txt" type="text/plain" width="384" height=411>
+                    <a href="hankekuvaukset/Pasrea.txt">No Support?</a>
+                </object>
+                <table class="video" width="392">
+                        <tr>
+                            <td>Rahoitus:<br><br>Kokonaisbudjetti: 407 000 €,<br>josta tukea on myönnetty 79,75 %</td>
+                            <td id="spacer" width="1"></td>
+                            <td align="center"><a href="https://www.youtube.com/watch?v=Hex3WbMDok8" target="_blank">
+                                <img src="images/icon_youtube_48px.png" alt="YouTube Logo"></a><br>
+                                <a href="https://www.youtube.com/watch?v=Hex3WbMDok8" target="_blank">Katso video</a></td>
+                        </tr>    
+                    </table> 
+            </div>
+            <div class="infog1">
+                    <img id="kuva1" src="images/Palkit_otos.svg" width="380"/>
+            </div>
+        </div>
+    <!--Option11--> 
+    <div id="option11" class="company_data">
+            <div>
+                <table width="400">
+                    <tr>
+                        <td><img id="icon_left" src="images/icon_yhteistyo.png" width="44" height="44" alt="Yhteistyö" /></td>
+                        <td align="right"> Osoite: Kanteenmaantie 1209, 31900 Punkalaidun<br>
+                            <br>
+                        </td>
+                    </tr>        
+                </table>        
+            </div>
+            <div class="data">
+                <object data="hankekuvaukset/Punkalaitumen_Bioenergiayhtio.txt" type="text/plain" width="384" height=411>
+                    <a href="hankekuvaukset/Punkalaitumen_Bioenergiayhtio.txt">No Support?</a>
+                </object>
+                <table class="video" width="392">
+                        <tr>
+                            <td>Rahoitus:<br><br>Kokonaisbudjetti: 157 600 €,<br>josta tukea on myönnetty 70 %
+                            <br>
+                            </td>    
+                        </tr>    
+                    </table> 
+            </div>
+            <div class="infog1">
+                    <img id="kuva1" src="images/Palkit_otos.svg" width="380"/>
+            </div>
+        </div>
+
+    <!--Infografics-->
+
+    <div class="infog2">
+        <p></p>Kokeiluohjelmassa rahoitusta oli jaettavana 12 400 000 €.<br>Tästä jäi jakamatta 5 864 080 €.</p><br>
+        <img src="images/Piirakka_jaettu-jakamaton.svg" width="380"/>
+    </div>
+    <!--Footer-->
+    <div>
+        <img src="images/spacer.png" height="56">
+    </div>
+
+<!--Script for dropdown-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+  //hides dropdown content
+  $(".company_data").hide();
+  
+  //unhides first option content
+  $("#option1").show();
+  
+  //listen to dropdown for change
+  $("#companyList").change(function(){
+    //rehide content on change
+    $('.company_data').hide();
+    //unhides current item
+    $('#'+$(this).val()).show();
+  });
+  
+});
+</script>
+
+</body>
+</html>
